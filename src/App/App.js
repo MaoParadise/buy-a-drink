@@ -2,6 +2,7 @@ import React from 'react'
 import './App.css';
 import { DrinkTable } from '../components/DrinkTables/DrinkTable';
 import { NavBar } from '../components/Header/NavBar';
+import { Footer } from '../components/Footer/Footer';
 
 const App = () => {
   return (
@@ -9,16 +10,11 @@ const App = () => {
       <NavBar />
       <DrinkTable>
       </DrinkTable>
-      <BarFooter>
-      </BarFooter>
+      <Footer />
     </React.Fragment>
   );
 }
 
-const BarFooter = () => {
-  return(
-    <p> BarFooter </p>
-  )
-}
+
 
 export default App;

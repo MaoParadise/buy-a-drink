@@ -6,9 +6,7 @@
 @tailwind utilities;
 
 body{
-    background: linear-gradient(180deg,#080808, #353738);
-    height: 100vh;
-    color: #fff;
+    background: #ccc;
 }
 
 
