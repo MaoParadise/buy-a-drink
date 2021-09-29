@@ -1,30 +1,18 @@
 import React from 'react'
 import './App.css';
+import { DrinkTable } from '../components/DrinkTables/DrinkTable';
+import { NavBar } from '../components/Header/NavBar';
 
 const App = () => {
   return (
     <React.Fragment>
-      <BarHeader>
-      </BarHeader>
+      <NavBar />
       <DrinkTable>
       </DrinkTable>
       <BarFooter>
       </BarFooter>
     </React.Fragment>
   );
-}
-
-const BarHeader = () => {
-  return(
-    <p className="mt-10"> BarHeader </p>
-  )
-}
-
-
-const DrinkTable = () =>{
-  return(
-    <p> DrinkTable </p>
-  )
 }
 
 const BarFooter = () => {
