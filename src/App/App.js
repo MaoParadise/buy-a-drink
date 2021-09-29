@@ -16,7 +16,7 @@ const App = () => {
 
 const BarHeader = () => {
   return(
-    <p> BarHeader </p>
+    <p className="mt-10"> BarHeader </p>
   )
 }
 
