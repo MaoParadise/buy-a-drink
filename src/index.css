@@ -8,7 +8,13 @@
 
 
 body{
-    background: linear-gradient(90deg,rgb(29, 29, 29), rgb(70, 69, 69));
+    background: linear-gradient(45deg,#2e2e2e, #000000);
+    background-image: url('https://image.freepik.com/vector-gratis/fondo-ciudad-noche-futurista_52683-9062.jpg');
+    background-repeat: repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    
+    
     --dark-purple: #240e27ff;
     --alabaster: #f4f2e5ff;
     --spanish-orange: #e36414ff;
