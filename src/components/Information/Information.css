@@ -1,0 +1,9 @@
+.underPolygon{
+    clip-path: polygon(6% 2%, 99% 18%, 100% 86%, 0% 100%);
+    background: linear-gradient(90deg,#E95E19, #FAAD00);
+}
+
+.underPolygon-inverse{
+    clip-path: polygon(4% 26%, 93% 4%, 100% 86%, 0% 100%);
+    background: linear-gradient(90deg,#FAAD00, #E95E19);
+}

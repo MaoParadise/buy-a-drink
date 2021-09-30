@@ -5,8 +5,15 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 body{
-    background: #ccc;
+    background: linear-gradient(90deg,rgb(29, 29, 29), rgb(70, 69, 69));
+    --dark-purple: #240e27ff;
+    --alabaster: #f4f2e5ff;
+    --spanish-orange: #e36414ff;
+    --seal-brown: #582707ff;
+    --cafe-au-lait: #b48258ff;
 }
 
 
