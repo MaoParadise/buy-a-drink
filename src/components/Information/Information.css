@@ -1,11 +1,11 @@
 .underPolygon{
     clip-path: polygon(6% 2%, 99% 18%, 100% 86%, 0% 100%);
-    background: linear-gradient(90deg,#E95E19, #FAAD00);
+    background: linear-gradient(90deg, rgba(138,46,158,1) 0%, rgba(147,58,96,1) 35%, rgba(252,95,163,1) 100%);
 }
 
 .underPolygon-inverse{
     clip-path: polygon(4% 26%, 93% 4%, 100% 86%, 0% 100%);
-    background: linear-gradient(90deg,#FAAD00, #E95E19);
+    background: linear-gradient(90deg, rgba(252,95,163,1) 0%, rgba(147,58,96,1) 35%, rgba(138,46,158,1) 100%);
 }
 
 .boxUnderPolygon > .box {

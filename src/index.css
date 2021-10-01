@@ -8,18 +8,26 @@
 
 
 body{
-    background: linear-gradient(45deg,#2e2e2e, #000000);
-    background-image: url('https://image.freepik.com/vector-gratis/fondo-ciudad-noche-futurista_52683-9062.jpg');
-    background-repeat: repeat;
-    background-size: 100% 100%;
-    background-attachment: fixed;
+    background: linear-gradient(45deg,#000000, rgb(11, 8, 56));
     
     
-    --dark-purple: #240e27ff;
-    --alabaster: #f4f2e5ff;
-    --spanish-orange: #e36414ff;
-    --seal-brown: #582707ff;
-    --cafe-au-lait: #b48258ff;
+    
+    --st-patricks-blue: #353271ff;
+--dark-magenta: #8a2e9eff;
+--brilliant-rose: #fc5fa3ff;
+--lapis-lazuli: #2a5c8dff;
+--blue-jeans: #0aadffff;
+--dark-mangenta-2: #933a60;
 }
 
+.neon-text{
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+}
 
+.neon-defualt-text{
+    cursor: pointer;
+}
+
+.neon-defualt-text:hover{
+    text-shadow: #FFF 0px 0px 2px, #FFF 0px 0px 4px, #FFF 0px 0px 7px, #FF2D95 0px 0px 8px, #FF2D95 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 45px;
+}
